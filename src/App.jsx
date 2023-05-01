@@ -16,9 +16,9 @@ const App = () => {
 				<Header />
 				<Routes>
 					<Route path='/' element={<Home />} />
-					<Route path='/store' element={<Store />} />
-					<Route path='/basket' element={<Basket />} />
-					<Route path='/favorite' element={<Favorite />} />
+					<Route path='store' element={<Store />} />
+					<Route path='basket' element={<Basket />} />
+					<Route path='favorite' element={<Favorite />} />
 				</Routes>
 			</div>
 		</SearchContext.Provider>
