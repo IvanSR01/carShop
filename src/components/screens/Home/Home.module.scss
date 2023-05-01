@@ -1,0 +1,40 @@
+.wrapper{
+	padding: 30px ;
+	h2{
+		font-size: 40px;
+	}
+	.items{
+		display: flex;
+		gap: 70px;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.catalog{
+		margin-top: 100px;
+	}
+	.CatalogItems{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 100px;
+	}
+	.Content {
+		cursor: pointer;
+		color: #000;
+		padding: 20px;
+		border-radius: 20%;
+		border: 1px solid #111111;
+		width: 400px;
+		text-align: center;
+		font-size: 35px;
+		font-weight: bold;
+		transition: 1s all;
+		img{
+			width: 400px;
+		}
+	}
+	.Content:hover{
+		box-shadow: 0 0 40px #b8b8b8;
+	}
+
+}

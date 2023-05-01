@@ -1,0 +1,133 @@
+[
+	{ 
+		"id":"1",
+		"title": "Mercedes-Benz C-Класс ",
+		"imgUrl":"public/CarImg/TypeC.jpg",
+		"desc": {
+			"motor":"Бензиновый",
+			"power": "150 л.с",
+			"toplivo": "6л/100км"
+		},
+		"price": "4303000",
+		"rating": "10",
+		"type":"2"
+	},
+	{ 
+		"id":"2",
+		"title": "Mercedes-AMG GT",
+		"imgUrl":"public/CarImg/TypeAmg.jpg",
+		"desc": {
+			"motor":"Бензиновый",
+			"power": "200 л.с",
+			"toplivo": "5.5л/100км"
+		},
+		"price": "16992000",
+		"rating": "9",
+		"type":"1"
+	},
+	{ 
+		"id":"3",
+		"title": "Mercedes-Benz CLA",
+		"imgUrl":"public/CarImg/TypeCla.jpg",
+		"desc": {
+			"motor":"Бензиновый",
+			"power": "180 л.с",
+			"toplivo": "8л/100км"
+		},
+		"price": "6188000",
+		"rating": "8",
+		"type":"3"
+	},
+	{ 
+		"id":"4",
+		"title": "Mercedes-Benz A-Класс ",
+		"imgUrl":"public//CarImg/typeASedan.jpg",
+		"desc": {
+			"motor":"Бензиновый",
+			"power": "306 л.с",
+			"toplivo": "7.3л/100км"
+		},
+		"price": "8703000",
+		"rating": "6",
+		"type":"2"
+	},
+	{ 
+		"id":"5",
+		"title": "Mercedes-Benz S-Класс",
+		"imgUrl":"public/CarImg/typeSSedan.jpg",
+		"desc": {
+			"motor":"Бензиновый",
+			"power": "530  л.с",
+			"toplivo": "9.3л/100км"
+		},
+		"price": "21012000",
+		"rating": "8",
+		"type":"2"
+	},
+	{ 
+		"id":"6",
+		"title": "Mercedes-Benz CLS",
+		"imgUrl":"public/CarImg/typeClsKype.jpg",
+		"desc": {
+			"motor":"Бензиновый",
+			"power": "249  л.с",
+			"toplivo": "10л/100км"
+		},
+		"price": "12580000",
+		"rating": "6",
+		"type":"3"
+	},
+	{ 
+		"id":"7",
+		"title": "Mercedes-Benz CLS",
+		"imgUrl":"public/CarImg/Gle.jpg",
+		"desc": {
+			"motor":"Дизель",
+			"power": "269  л.с",
+			"toplivo": "7.5л/100км"
+		},
+		"price": "13601000",
+		"rating": "10",
+		"type":"3"
+	},
+	{ 
+		"id":"8",
+		"title": "Mercedes-Benz GLS",
+		"imgUrl":"public/CarImg/typeVne.jpg",
+		"desc": {
+			"motor":"Бензиновый",
+			"power": "367  л.с",
+			"toplivo": "7.9л/100км"
+		},
+		"price": "14976000",
+		"rating": "7",
+		"type":"4"
+	},
+	{ 
+		"id":"9",
+		"title": "Mercedes-Benz G-Класс",
+		"imgUrl":"public/CarImg/G.jpg",
+		"desc": {
+			"motor":"Дизель",
+			"power": "330  л.с",
+			"toplivo": "9.6л/100км"
+		},
+		"price": "24744000",
+		"rating": "6",
+		"type":"4"
+	},
+	{ 
+		"id":"10",
+		"title": "Mercedes-AMG A-Класс",
+		"imgUrl":"public/CarImg/TypeAAmg.jpg",
+		"desc": {
+			"motor":"Бензиновый",
+			"power": "180 л.с",
+			"toplivo": "6л/100км"
+		},
+		"price": "11672000",
+		"rating": "8",
+		"type":"1"
+	}
+
+]
