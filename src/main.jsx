@@ -6,7 +6,7 @@ import { store } from "./redux/store";
 import "./assets/global.scss";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <HashRouter>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <Provider store={store}>
       <App />
     </Provider>
