@@ -1,0 +1,42 @@
+.wrapper {
+	min-height: 800px;
+	.header {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 200px;
+		font-size: 40px;
+		P {
+			font-weight: bold;
+		}
+		button {
+			background-color: transparent;
+			border: none;
+			font-size: 30px;
+			color: rgb(152, 152, 152);
+			cursor: pointer;
+		}
+	}
+}
+.empty {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 805px;
+	div {
+		text-align: center;
+		width: 350px;
+		p {
+			font-size: 30px;
+			font-weight: bold;
+			margin: 10px 0px 10px 0px;
+		}
+		span {
+			color: rgb(133, 133, 133);
+			font-size: 20px;
+			line-height: 30px;
+			display: inline-block;
+			margin-bottom: 40px;
+		}
+	}
+}

@@ -5,7 +5,7 @@
   height: 150px;
   font-size: 20px;
 	padding: 40px 40px 0 40px;
-	border-bottom: 1px solid #adadad;
+	border-bottom: 4px solid #C5283D;
   .logo {
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@
 			text-decoration: underline;
 		}
 		.active{
-			background-color: #1e0638;
+			background-color: #C5283D;
 			color: #fff;
 			border-radius: 12px;
 		}
