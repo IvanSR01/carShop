@@ -4,13 +4,13 @@ import { Routes, Route } from 'react-router-dom'
 import Store from '../pages/Store/Store'
 import Basket from '../pages/Basket/Basket'
 import Favorite from '../pages/Favorite/Favorite'
+import { data } from './RouterData'
 const Router: FC = () => {
 	return (
 		<Routes>
-			<Route path='/' element={<Home/>}/>
-			<Route path='/store' element={<Store/>}/>
-			<Route path='/basket' element={<Basket/>}/>
-			<Route path='/favorite' element={<Favorite/>}/>
+			{data.map(item => (
+				<Route path={item.path} element={<item.element/>}/>
+			))}
 		</Routes>
 	)
 }
